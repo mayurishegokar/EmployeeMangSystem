@@ -17,6 +17,7 @@ public class Employee {
 	@Column(name = "fullname")
 	private String name;
 	
+	@Column(nullable = false, unique = true)
 	private String email;
 	private long contact;
 	private String address;
